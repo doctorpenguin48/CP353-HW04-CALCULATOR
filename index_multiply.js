@@ -19,9 +19,9 @@ app.post('/calculator/rest/multiply',	function(req,	res,	next)	{
         var y = body.y;
         var result = 0;
         var object = {
-            "x":3,
-            "y":2,
-            "result":6
+            "x":x,
+            "y":y,
+            "result":x * y
         }
         res.json(object)
         });

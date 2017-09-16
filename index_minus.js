@@ -19,9 +19,9 @@ app.post('/calculator/rest/minus',	function(req,	res,	next)	{
         var y = body.y;
         var result = 0;
         var object = {
-            "x":3,
-            "y":2,
-            "result":1
+            "x":x,
+            "y":y,
+            "result":x - y
         }
         res.json(object)
         });
